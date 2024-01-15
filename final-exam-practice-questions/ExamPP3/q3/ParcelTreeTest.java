@@ -1,10 +1,12 @@
+package q3;
+
 import org.junit.Before;
-import parcel.CartesianCoordinate;
-import parcel.Parcel;
+import q3.parcel.CartesianCoordinate;
+import q3.parcel.Parcel;
 import org.junit.Test;
-import parcel.Recipient;
+import q3.parcel.Recipient;
 import static org.junit.Assert.*;
-import parcel.Sender;
+import q3.parcel.Sender;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;

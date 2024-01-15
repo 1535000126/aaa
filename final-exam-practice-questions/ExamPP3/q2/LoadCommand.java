@@ -1,3 +1,4 @@
+package q2;
 
 public class LoadCommand extends Command {
 

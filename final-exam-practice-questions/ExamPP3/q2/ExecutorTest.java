@@ -1,7 +1,9 @@
+package q2;
 
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -85,9 +87,10 @@ public class ExecutorTest {
 
 	private void execute(String text) {
 		Parser parser = new Parser(new Tokeniser(text));
+		System.out.println("parser.parseCmds(): " + parser.parseCmds());
 
+		// Executor executor = new Executor(new ArrayList<>(List.of(new LoadCommand("person", "persons.xml")))); //parser.parseCmds());
 		Executor executor = new Executor(parser.parseCmds());
-
 		executor.execute();
 	}
 

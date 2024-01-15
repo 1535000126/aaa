@@ -1,3 +1,5 @@
+package q2;
+
 public class Token {
 
 	public enum Type {
@@ -36,4 +38,12 @@ public class Token {
 
 		return false;
 	}
+
+	// TODO [Cathy Added] TODO-DEL
+	@Override
+	public String toString() {
+		return "Token[type=" + type + "] value='" + value +"'";
+	}
+	// --TODO-DEL
+
 }

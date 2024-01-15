@@ -1,4 +1,4 @@
-package parcel;
+package q3.parcel;
 
 public class Recipient extends Person {
 

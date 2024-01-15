@@ -1,4 +1,4 @@
-package parcel;
+package q3.parcel;
 
 public class CartesianCoordinate {
     private final double x; // in km

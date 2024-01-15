@@ -1,3 +1,5 @@
+package q2;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,7 +11,7 @@ public class DataBase {
 	private static final DataBase INSTANCE = new DataBase();
 
 	public static DataBase getInstance() {
-		return INSTANCE;
+		return new DataBase(); // INSTANCE;
 	}
 
 	public void save(String key, List<Person> persons) {

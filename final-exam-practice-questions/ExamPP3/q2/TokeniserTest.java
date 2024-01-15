@@ -1,3 +1,4 @@
+package q2;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,6 +10,7 @@ import org.junit.Test;
 public class TokeniserTest {
 
 	private static void generalTest(Tokeniser tokeniser, Token token) {
+
 		assertEquals(token, tokeniser.current());
 		tokeniser.next();
 	}
